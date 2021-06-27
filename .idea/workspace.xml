@@ -22,31 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4297553c-01ef-4836-85fd-092722299a81" name="Default Changelist" comment="de gui gemaakt">
-      <change afterPath="$PROJECT_DIR$/Project2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaFXApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objecten/buyfunctie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objecten/observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objecten/recept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objecten/user.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaFXAppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/objecten/receptTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/objecten/userTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="4297553c-01ef-4836-85fd-092722299a81" name="Default Changelist" comment="opdracht 1 af van test ontwerp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objecten/receptclasses/Variant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objecten/receptclasses/clasic_recept.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objecten/receptclasses/ingredient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objecten/receptclasses/recept.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objecten/receptclasses/receptlist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objecten/receptclasses/variantAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objecten/buyfunctie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objecten/buyfunctie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objecten/recept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objecten/recept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objecten/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objecten/user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/objecten/userTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objecten/userTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,37 +95,10 @@
       <recent name="C:\Users\Gebruiker\IdeaProjects\Project2\src\main\java\object" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.receptTest">
+  <component name="RunManager" selected="JUnit.userTest.testbuy">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Project2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaFXAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Project2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JavaFXAppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLoan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Project2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLoan" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPriceCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Project2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestPriceCalculator" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,6 +114,53 @@
       <option name="PACKAGE_NAME" value="objecten" />
       <option name="MAIN_CLASS_NAME" value="objecten.receptTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="receptTest.MULTIPLE_CONDITION_createrecept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objecten.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="objecten" />
+      <option name="MAIN_CLASS_NAME" value="objecten.receptTest" />
+      <option name="METHOD_NAME" value="MULTIPLE_CONDITION_createrecept" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="userTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objecten.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="objecten" />
+      <option name="MAIN_CLASS_NAME" value="objecten.userTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="userTest.testbuy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objecten.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="objecten" />
+      <option name="MAIN_CLASS_NAME" value="objecten.userTest" />
+      <option name="METHOD_NAME" value="testbuy" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.userTest.testbuy" />
+        <item itemvalue="JUnit.receptTest.MULTIPLE_CONDITION_createrecept" />
+        <item itemvalue="JUnit.userTest" />
         <item itemvalue="JUnit.receptTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TestPriceCalculator" />
-        <item itemvalue="JUnit.TestLoan" />
-        <item itemvalue="JUnit.JavaFXAppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -230,6 +231,14 @@
       <option name="presentableId" value="Default" />
       <updated>1619090766790</updated>
     </task>
+    <task id="LOCAL-00001" summary="opdracht 1 af van test ontwerp">
+      <created>1624816656190</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624816656190</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,13 +270,19 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="opdracht 1 af van test ontwerp" />
+    <option name="LAST_COMMIT_MESSAGE" value="opdracht 1 af van test ontwerp" />
   </component>
   <component name="WindowStateProjectService">
     <state x="760" y="274" key="#Project_Structure" timestamp="1624108407599">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="760" y="274" key="#Project_Structure/-1920.0.1920.1040/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1624108407599" />
-    <state x="3374" y="651" key="#com.intellij.ide.util.MemberChooser" timestamp="1624815974017">
+    <state x="2652" y="441" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1624820279494">
+      <screen x="2560" y="349" width="1920" height="1040" />
+    </state>
+    <state x="2652" y="441" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/2560.349.1920.1040/-3840.-731.2194.1194/0.0.2560.1400@2560.349.1920.1040" timestamp="1624820279494" />
+    <state x="3374" y="651" key="#com.intellij.ide.util.MemberChooser" timestamp="1624819385954">
       <screen x="2560" y="349" width="1920" height="1040" />
     </state>
     <state x="-1106" y="302" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.2560.1400/2560.0.1920.1040@-1920.0.1920.1040" timestamp="1624279247882" />
@@ -275,7 +290,7 @@
     <state x="-1106" y="302" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/2560.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1624024849797" />
     <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1624115044870" />
     <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1624628385649" />
-    <state x="3374" y="651" key="#com.intellij.ide.util.MemberChooser/2560.349.1920.1040/-3840.-731.2194.1194/0.0.2560.1400@2560.349.1920.1040" timestamp="1624815974017" />
+    <state x="3374" y="651" key="#com.intellij.ide.util.MemberChooser/2560.349.1920.1040/-3840.-731.2194.1194/0.0.2560.1400@2560.349.1920.1040" timestamp="1624819385954" />
     <state x="1001" y="389" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1624531754339">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -306,7 +321,7 @@
     <state x="987" y="370" key="FileChooserDialogImpl/-1920.0.1920.1040/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1622034378584" />
     <state x="-1180" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/2560.0.2560.1400/0.0.2560.1400@-1920.0.1920.1040" timestamp="1624636060719" />
     <state x="987" y="370" key="FileChooserDialogImpl/-1920.0.1920.1040/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1624629333967" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1624813273581">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1624820270456">
       <screen x="2560" y="349" width="1920" height="1040" />
     </state>
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1400/2560.0.1920.1040@-1920.0.1920.1040" timestamp="1624278769892" />
@@ -319,8 +334,8 @@
     <state width="1258" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.0.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1621432543008" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/2560.0.1920.1060/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1621531532469" />
     <state width="2517" height="281" key="GridCell.Tab.0.bottom/2560.0.1920.1060/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1621534812799" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/2560.349.1920.1040/-3840.-731.2194.1194/0.0.2560.1400@2560.349.1920.1040" timestamp="1624813273581" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1624813273580">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/2560.349.1920.1040/-3840.-731.2194.1194/0.0.2560.1400@2560.349.1920.1040" timestamp="1624820270456" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1624820270456">
       <screen x="2560" y="349" width="1920" height="1040" />
     </state>
     <state width="1877" height="261" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1400/2560.0.1920.1040@-1920.0.1920.1040" timestamp="1624278769891" />
@@ -333,8 +348,8 @@
     <state width="1258" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.0.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1621432543007" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/2560.0.1920.1060/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1621531532469" />
     <state width="2517" height="281" key="GridCell.Tab.0.center/2560.0.1920.1060/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1621534812799" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center/2560.349.1920.1040/-3840.-731.2194.1194/0.0.2560.1400@2560.349.1920.1040" timestamp="1624813273580" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1624813273580">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/2560.349.1920.1040/-3840.-731.2194.1194/0.0.2560.1400@2560.349.1920.1040" timestamp="1624820270456" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1624820270455">
       <screen x="2560" y="349" width="1920" height="1040" />
     </state>
     <state width="1877" height="261" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1400/2560.0.1920.1040@-1920.0.1920.1040" timestamp="1624278769891" />
@@ -347,8 +362,8 @@
     <state width="1258" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.0.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1621432543007" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/2560.0.1920.1060/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1621531532469" />
     <state width="2517" height="281" key="GridCell.Tab.0.left/2560.0.1920.1060/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1621534812798" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left/2560.349.1920.1040/-3840.-731.2194.1194/0.0.2560.1400@2560.349.1920.1040" timestamp="1624813273580" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1624813273581">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/2560.349.1920.1040/-3840.-731.2194.1194/0.0.2560.1400@2560.349.1920.1040" timestamp="1624820270455" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1624820270456">
       <screen x="2560" y="349" width="1920" height="1040" />
     </state>
     <state width="1877" height="261" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1400/2560.0.1920.1040@-1920.0.1920.1040" timestamp="1624278769892" />
@@ -361,7 +376,7 @@
     <state width="1258" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.0.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1621432543008" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/2560.0.1920.1060/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1621531532469" />
     <state width="2517" height="281" key="GridCell.Tab.0.right/2560.0.1920.1060/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1621534812799" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right/2560.349.1920.1040/-3840.-731.2194.1194/0.0.2560.1400@2560.349.1920.1040" timestamp="1624813273581" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/2560.349.1920.1040/-3840.-731.2194.1194/0.0.2560.1400@2560.349.1920.1040" timestamp="1624820270456" />
     <state x="781" y="345" key="SettingsEditor" timestamp="1624531798968">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -370,6 +385,10 @@
     <state x="-1334" y="256" key="SettingsEditor/-1920.0.1920.1040/2560.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1624368532087" />
     <state x="781" y="345" key="SettingsEditor/-1920.0.1920.1040/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1624110377949" />
     <state x="781" y="345" key="SettingsEditor/-1920.0.1920.1040/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1621514800233" />
+    <state x="3112" y="602" key="Vcs.Push.Dialog.v2" timestamp="1624816666414">
+      <screen x="2560" y="349" width="1920" height="1040" />
+    </state>
+    <state x="3112" y="602" key="Vcs.Push.Dialog.v2/2560.349.1920.1040/-3840.-731.2194.1194/0.0.2560.1400@2560.349.1920.1040" timestamp="1624816666414" />
     <state x="-1097" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624368545920">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -400,12 +419,13 @@
     <state x="662" y="320" key="new project wizard/-1920.0.1920.1040/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619092584949" />
     <state x="-1423" y="238" key="new project wizard/-1920.0.1920.1040/2560.0.2560.1400/0.0.2560.1400@-1920.0.1920.1040" timestamp="1624635582921" />
     <state x="662" y="320" key="new project wizard/-1920.0.1920.1040/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1621514366295" />
-    <state x="936" y="330" key="run.anything.popup" timestamp="1624564253472">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="3262" y="594" key="run.anything.popup" timestamp="1624819645582">
+      <screen x="2560" y="349" width="1920" height="1040" />
     </state>
     <state x="936" y="330" key="run.anything.popup/-1920.0.1920.1040/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1624530110151" />
     <state x="936" y="330" key="run.anything.popup/-1920.0.1920.1040/2560.0.1707.920/0.0.2560.1400@0.0.2560.1400" timestamp="1624564253472" />
     <state x="936" y="330" key="run.anything.popup/2560.0.1920.1060/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1621533142090" />
+    <state x="3262" y="594" key="run.anything.popup/2560.349.1920.1040/-3840.-731.2194.1194/0.0.2560.1400@2560.349.1920.1040" timestamp="1624819645582" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -414,6 +434,14 @@
           <url>file://$PROJECT_DIR$/src/test/java/objecten/receptTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/objecten/userTest.java</url>
+          <line>13</line>
+          <properties class="objecten.userTest" method="testbuy">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

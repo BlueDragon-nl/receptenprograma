@@ -11,4 +11,20 @@ public class user {
     public void setLastorder(LocalDateTime lastorder) {
         this.lastorder = lastorder;
     }
+
+    public user(ArrayList<recept> recept, LocalDateTime lastorder) {
+        this.recept = recept;
+        this.lastorder = lastorder;
+    }
+
+    public user() {
+    }
+
+    public ArrayList<objecten.recept> getRecept() {
+        return recept;
+    }
+
+    public Boolean lastmoths() {
+        return lastorder.isAfter(LocalDateTime.now().plusMonths(1));
+    }
 }

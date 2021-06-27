@@ -5,9 +5,23 @@ import java.util.ArrayList;
 
 public class recept {
 
-    public ArrayList<String> stappen;
 
     public ArrayList<String> ingrediënten;
+    public ArrayList<String> stappen;
+
+    public Double price;
+
+    public recept() {
+
+    }
+
+    public recept(Double price) {
+        this.price = price;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
 
     public recept(ArrayList<String> stappen, ArrayList<String> ingredienten) {
         this.stappen = stappen;
